@@ -1,0 +1,63 @@
+<p><a _ngcontent-mbv-c0="" _nghost-mbv-c1="" data-test-id="a11y-skip-link" firea11yskiplink="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#main">ข้ามไปที่เนื้อหาหลัก</a></p>
+
+<nav _ngcontent-mbv-c2="" aria-label="ผลิตภัณฑ์ที่มีคอนโซล Firebase"><a _ngcontent-mbv-c2="" aria-label="ไปที่รายการโปรเจ็กต์" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#"><img _ngcontent-mbv-c14="" alt="" fire-logo="" role="presentation" src="https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png" /><img _ngcontent-mbv-c14="" alt="โลโก้ Firebase" src="https://www.gstatic.com/mobilesdk/160323_mobilesdk/images/firebase_logotype_white_18dp.svg" /></a><a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-20" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#" mattooltipposition="right" role="treeitem" tabindex="-1"><i _ngcontent-mbv-c2="" aria-hidden="true">gmp_nav20_overview</i></a>
+
+<p><a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-20" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#" mattooltipposition="right" role="treeitem" tabindex="-1">ภาพรวมโปรเจ็กต์</a></p>
+<button _ngcontent-mbv-c2="" aria-haspopup="true" aria-label="การตั้งค่าโปรเจ็กต์" firefocusmanageritem="" mattooltip="การตั้งค่าโปรเจ็กต์" mattooltipposition="right" role="treeitem" tabindex="-1"><i _ngcontent-mbv-c2="" aria-hidden="true">gmp_nav20_settings</i></button><a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-21" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#" mattooltipposition="right" role="treeitem" tabindex="-1"><i _ngcontent-mbv-c2="" aria-hidden="true">gmp_nav20_auth</i></a>
+
+<p><a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-21" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#" mattooltipposition="right" role="treeitem" tabindex="-1">Authentication</a></p>
+<a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-22" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/firestore" mattooltipposition="right" role="treeitem" tabindex="-1"><i _ngcontent-mbv-c2="" aria-hidden="true">gmp_firestore</i></a>
+
+<p><a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-22" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/firestore" mattooltipposition="right" role="treeitem" tabindex="-1">Cloud Firestore</a></p>
+<a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-23" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#" mattooltipposition="right" role="treeitem" tabindex="-1"><i _ngcontent-mbv-c2="" aria-hidden="true">gmp_nav20_database</i></a>
+
+<p><a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-23" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#" mattooltipposition="right" role="treeitem" tabindex="-1">Realtime Database</a></p>
+<a _ngcontent-mbv-c2="" aria-current="page" aria-describedby="cdk-describedby-message-24" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage" mattooltipposition="right" role="treeitem" tabindex="-1"><i _ngcontent-mbv-c2="" aria-hidden="true">gmp_nav20_storage</i></a>
+
+<p><a _ngcontent-mbv-c2="" aria-current="page" aria-describedby="cdk-describedby-message-24" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage" mattooltipposition="right" role="treeitem" tabindex="-1">Storage</a></p>
+<a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-25" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#" mattooltipposition="right" role="treeitem" tabindex="-1"><i _ngcontent-mbv-c2="" aria-hidden="true">gmp_nav20_hosting</i></a>
+
+<p><a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-25" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#" mattooltipposition="right" role="treeitem" tabindex="-1">Hosting</a></p>
+<a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-26" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#" mattooltipposition="right" role="treeitem" tabindex="-1"><i _ngcontent-mbv-c2="" aria-hidden="true">gmp_nav20_functions</i></a>
+
+<p><a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-26" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#" mattooltipposition="right" role="treeitem" tabindex="-1">Functions</a></p>
+<a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-27" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/ml" mattooltipposition="right" role="treeitem" tabindex="-1"><i _ngcontent-mbv-c2="" aria-hidden="true">gmp_nav20_ml2</i></a>
+
+<p><a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-27" cdk-describedby-host="" firefocusmanageritem="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/ml" mattooltipposition="right" role="treeitem" tabindex="-1">Machine Learning</a></p>
+<a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-28" cdk-describedby-host="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#" mattooltipposition="right"><i _ngcontent-mbv-c2="" aria-hidden="true">gmp_nav20_mods</i></a>
+
+<p><a _ngcontent-mbv-c2="" aria-describedby="cdk-describedby-message-28" cdk-describedby-host="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#" mattooltipposition="right">Extensions</a></p>
+</nav>
+
+<header _ngcontent-mbv-c0="">
+<p>warning<a _ngcontent-mbv-c5="">ภาษาที่คุณเลือกไว้ในปัจจุบันจะใช้งานไม่ได้ตั้งแต่วันที่ 9 มีนาคม ค.ศ. 2021 คุณเปลี่ยนเป็นภาษาอื่นได้ที่ด้านล่างในหน้าแรกของคอนโซล Firebase</a></p>
+
+<p><button _ngcontent-mbv-c5="" mat-raised-button="" type="button">ไปที่หน้าแรก</button></p>
+
+<p><button _ngcontent-mbv-c6="" aria-label="เปิดเมนูการนำทาง" mat-icon-button="">menu</button></p>
+
+<p><button aria-expanded="false" aria-haspopup="true" aria-label="เปิดลิ้นชักการแจ้งเตือน" mat-icon-button="" type="button"><i aria-describedby="cdk-describedby-message-0" cdk-describedby-host="" mattooltip="การแจ้งเตือนสำหรับ Firebase · ไม่มีการแจ้งเตือน" mattooltipposition="below">notifications</i></button></p>
+<button _ngcontent-mbv-c6="" aria-haspopup="true" aria-label="ตัวเลือกเพิ่มเติม" mat-icon-button="">more_vert</button>
+
+<p><a href="https://accounts.google.com/ServiceLogin?hl=th&amp;passive=true&amp;continue=https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/extensions&amp;ec=GAZAiAM" target="_top">ลงชื่อเข้าสู่ระบบ</a></p>
+</header>
+
+<main _ngcontent-mbv-c0="" id="main">
+<h1 _ngcontent-mbv-c68="">Storage</h1>
+<button _ngcontent-mbv-c70="" aria-describedby="cdk-describedby-message-19" aria-haspopup="true" aria-label="ลิงก์การสนับสนุนและความช่วยเหลือของ Firebase" cdk-describedby-host="" mat-button="" mat-icon-button="" mattooltip="ความช่วยเหลือ" mattooltipposition="below"><i _ngcontent-mbv-c70="">help</i></button>
+
+<nav _ngcontent-mbv-c69="" aria-label="ฟีเจอร์ของผลิตภัณฑ์" mat-tab-nav-bar="">
+<p><a _ngcontent-mbv-c69="" aria-current="page" aria-disabled="false" aria-label="Selected Tab: Files" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#" mat-tab-link="" tabindex="0">Files</a><a _ngcontent-mbv-c69="" aria-disabled="false" aria-label="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/xxx-x345-patch-1.appspot.com/files#" mat-tab-link="" tabindex="0">Rules</a><a _ngcontent-mbv-c69="" aria-disabled="false" aria-label="" href="https://console.firebase.google.com/u/0/project/xxx-x345-patch-1/storage/usage" mat-tab-link="" tabindex="0">Usage</a></p>
+</nav>
+
+<p><button _ngcontent-mbv-c75="" aria-label="คัดลอกเส้นทางโฟลเดอร์" fire-copy="" mat-icon-button="" mattooltip="คัดลอกเส้นทางโฟลเดอร์">link</button><button _ngcontent-mbv-c85="" color="primary" mat-raised-button="">file_uploadอัปโหลดไฟล์</button><button _ngcontent-mbv-c75="" aria-label="สร้างโฟลเดอร์" mat-icon-button="" mattooltip="สร้างโฟลเดอร์">create_new_folder</button><button _ngcontent-mbv-c75="" aria-haspopup="true" aria-label="เมนูรายการเพิ่มเติม" mat-icon-button="">more_vert</button></p>
+<label for="mat-checkbox-1-input"><input aria-checked="false" id="mat-checkbox-1-input" tabindex="0" type="checkbox" /></label>
+
+<p>ชื่อ</p>
+
+<p><label for="mat-checkbox-2-input"><input aria-checked="false" id="mat-checkbox-2-input" tabindex="0" type="checkbox" /></label>01.gif</p>
+
+<p><label for="mat-checkbox-3-input"><input aria-checked="false" id="mat-checkbox-3-input" tabindex="0" type="checkbox" /></label>07.gif</p>
+
+<p><label for="mat-checkbox-4-input"><input aria-checked="false" id="mat-checkbox-4-input" tabindex="0" type="checkbox" /></label>51e9e599-1933-461a-8a1b-525a506e958b.mp4</p>
+</main>
