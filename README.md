@@ -8,7 +8,7 @@ list]
 BASIC
 
 [list]
- [*]Text</li>
+ [*]Text</li>$GLOBAL_BFOOTER$
  [*]Image</li>
  [*]Gallery</li>
  [*]Slider</li>
