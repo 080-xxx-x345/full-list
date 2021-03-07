@@ -1,0 +1,166 @@
+# full-list
+ &lt;a <p>&nbsp;</p>
+
+<p><a _ngcontent-jbx-c35="" aria-label="Account options" href="https://console.cloud.google.com/AccountChooser" target="_self"><img _ngcontent-jbx-c35="" alt=" " src="https://lh5.googleusercontent.com/-_hQvOAY9qZQ/AAAAAAAAAAI/AAAAAAAAAAA/_DbB46t2woQ/W96-H96/photo.jpg" /></a></p>
+
+<p><button _ngcontent-jbx-c46="" aria-label="No project selected. Hit enter to select a project, folder, or organization." data-prober="cloud-console-core-functions-project-switcher" jslog="92025" mat-button=""></button></p>
+
+<p><button _ngcontent-jbx-c46="" aria-label="No project selected. Hit enter to select a project, folder, or organization." data-prober="cloud-console-core-functions-project-switcher" jslog="92025" mat-button="">Select a project&nbsp;</button></p>
+
+<p>Home</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/marketplace" rel="noopener" role="menuitem" tabindex="-1">Marketplace</a><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/billing" rel="noopener" role="menuitem" tabindex="-1">Billing</a></p>
+
+<p>APIs &amp; Services</p>
+
+<p>Support</p>
+
+<p>IAM &amp; Admin</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/getting-started" rel="noopener" role="menuitem" tabindex="-1">Getting started</a></p>
+
+<p>Security</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/compliance/assuredworkloads" rel="noopener" role="menuitem" tabindex="-1">Compliance</a></p>
+
+<p>Anthos</p>
+
+<p>User preferences</p>
+
+<p>COMPUTE</p>
+
+<p>App Engine</p>
+
+<p>Compute Engine</p>
+
+<p>Kubernetes Engine</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/functions" rel="noopener" role="menuitem" tabindex="-1">Cloud Functions</a><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/run" rel="noopener" role="menuitem" tabindex="-1">Cloud Run</a><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/gve" rel="noopener" role="menuitem" tabindex="-1" target="_blank">VMware Engine</a></p>
+
+<p>STORAGE</p>
+
+<p>Filestore</p>
+
+<p>Storage</p>
+
+<p>Data Transfer</p>
+
+<p>DATABASES</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/bigtable" rel="noopener" role="menuitem" tabindex="-1">Bigtable</a></p>
+
+<p>Datastore</p>
+
+<p>Database Migration</p>
+
+<p>Firestore</p>
+
+<p>Memorystore</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/spanner" rel="noopener" role="menuitem" tabindex="-1">Spanner</a><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/sql" rel="noopener" role="menuitem" tabindex="-1">SQL</a></p>
+
+<p>NETWORKING</p>
+
+<p>VPC network</p>
+
+<p>Network services</p>
+
+<p>Hybrid Connectivity</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/net-tier" rel="noopener" role="menuitem" tabindex="-1">Network Service Tiers</a></p>
+
+<p>Network Security</p>
+
+<p>Network Intelligence</p>
+
+<p>OPERATIONS</p>
+
+<p>Monitoring</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/debug" rel="noopener" role="menuitem" tabindex="-1">Debugger</a><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/errors" rel="noopener" role="menuitem" tabindex="-1">Error Reporting</a></p>
+
+<p>Logging</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/profiler" rel="noopener" role="menuitem" tabindex="-1">Profiler</a></p>
+
+<p>Trace</p>
+
+<p>TOOLS</p>
+
+<p>Cloud Build</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/cloudtasks" rel="noopener" role="menuitem" tabindex="-1">Cloud Tasks</a></p>
+
+<p>Container Registry</p>
+
+<p>Artifact Registry</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/cloudscheduler" rel="noopener" role="menuitem" tabindex="-1">Cloud Scheduler</a></p>
+
+<p>Deployment Manager</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/api-gateway" rel="noopener" role="menuitem" tabindex="-1">API Gateway</a></p>
+
+<p>Endpoints</p>
+
+<p>Identity Platform</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://source.cloud.google.com/" role="menuitem" tabindex="-1" target="_blank">Source Repositories</a><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/workflows" rel="noopener" role="menuitem" tabindex="-1">Workflows</a><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/catalog" rel="noopener" role="menuitem" tabindex="-1">Private Catalog</a><a _ngcontent-jbx-c40="" href="https://apigee.google.com/" role="menuitem" tabindex="-1" target="_blank">Apigee</a></p>
+
+<p>BIG DATA</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/composer" rel="noopener" role="menuitem" tabindex="-1">Composer</a></p>
+
+<p>Dataproc</p>
+
+<p>Pub/Sub</p>
+
+<p>Dataflow</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/iot" rel="noopener" role="menuitem" tabindex="-1">IoT Core</a></p>
+
+<p>BigQuery</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/looker" rel="noopener" role="menuitem" tabindex="-1">Looker</a><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/datacatalog" rel="noopener" role="menuitem" tabindex="-1">Data Catalog</a></p>
+
+<p>Life Sciences</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/financial_services" rel="noopener" role="menuitem" tabindex="-1">Financial Services</a><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/dataprep" rel="noopener" role="menuitem" tabindex="-1" target="_blank">Dataprep</a><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/data-fusion" rel="noopener" role="menuitem" tabindex="-1">Data Fusion</a></p>
+
+<p>Healthcare</p>
+
+<p>ARTIFICIAL INTELLIGENCE</p>
+
+<p>AI Platform (Unified)</p>
+
+<p>AI Platform</p>
+
+<p>Data Labeling</p>
+
+<p>Document AI</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/natural-language" rel="noopener" role="menuitem" tabindex="-1">Natural Language</a></p>
+
+<p>Recommendations AI</p>
+
+<p>Tables</p>
+
+<p>Translation</p>
+
+<p>Talent Solution</p>
+
+<p>Vision</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/video-intelligence" rel="noopener" role="menuitem" tabindex="-1">Video Intelligence</a></p>
+
+<p>OTHER GOOGLE SOLUTIONS</p>
+
+<p>Game Servers</p>
+
+<p>Google Maps Platform</p>
+
+<p>PARTNER SOLUTIONS</p>
+
+<p><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/marketplace/details/endpoints/gcp.redisenterprise.com" rel="noopener" role="menuitem" tabindex="-1">Redis Enterprise</a><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/marketplace/details/endpoints/payg-prod.gcpmarketplace.confluent.cloud" rel="noopener" role="menuitem" tabindex="-1">Apache Kafka on Confluent</a><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/datastax/cloud-datastax-astra" rel="noopener" role="menuitem" tabindex="-1">DataStax Astra</a><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/marketplace/details/endpoints/elasticsearch-service.gcpmarketplace.elastic.co" rel="noopener" role="menuitem" tabindex="-1">Elasticsearch Service</a><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/marketplace/details/mongodb/atlas-pro" rel="noopener" role="menuitem" tabindex="-1">MongoDB Atlas</a><a _ngcontent-jbx-c40="" href="https://console.cloud.google.com/marketplace/product/endpoints/prod.n4gcp.neo4j.io" rel="noopener" role="menuitem" tabindex="-1">Neo4j Aura Professional Database-as-a-Service</a></p>
+
+<p>Cloud Volumes</p>
