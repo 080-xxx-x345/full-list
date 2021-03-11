@@ -1,0 +1,401 @@
+
+<p>My Websites</p>
+
+<p>Interface</p>
+
+<p>Language</p>
+
+<p>Log out</p>
+
+<p>General</p>
+
+<p>Settings</p>
+
+<p>Design</p>
+
+<p>Tools</p>
+
+<p>Security</p>
+
+<p>Help</p>
+
+<p><b>Paid services</b></p>
+
+<table border="0" cellpadding="0" cellspacing="6" width="100%">
+	<tbody>
+		<tr>
+			<td id="panel-side" valign="top">
+			<p><a href="http://trueid.ucoz.site/panel/?a=users">Users</a></p>
+
+			<p><a href="http://trueid.ucoz.site/panel/?a=site">Page Editor</a></p>
+
+			<p><a href="http://trueid.ucoz.site/panel/?a=dir">Site Catalog</a></p>
+
+			<p><a href="http://trueid.ucoz.site/panel/?a=blog">Blog</a></p>
+
+			<p><a href="http://trueid.ucoz.site/panel/?a=search">Site Search</a></p>
+
+			<p><a href="http://trueid.ucoz.site/panel/?a=seo">SEO Module</a></p>
+
+			<p><a href="javascript:;" id="instModsL" onclick="uCoz.utils.switchModules(0); return false;">Active</a></p>
+
+			<p><a href="javascript:;" id="uninstModsL" onclick="uCoz.utils.switchModules(1); return false;">Inactive</a></p>
+
+			<p><a href="http://u.to/k1HS" target="_blank"><img src="http://lu-work.ucoz.com/banners/book8engl2.png" /></a></p>
+
+			<p><iframe frameborder="0" height="400" id="mainadsdv_iframe" width="240"></iframe></p>
+			<a href="http://trueid.ucoz.site/panel/?a=pro"><b>Remove Ad Banner</b></a></td>
+			<td id="panel-cont" valign="top">
+			<p><a href="http://trueid.ucoz.site/panel/?a=cp">Home</a>&nbsp;&raquo;&nbsp;<a href="http://trueid.ucoz.site/panel/?a=setup">General Settings</a></p>
+			Module settings:&nbsp;<select name="list" onchange="top.location.href = '/panel/?' + this.value">&nbsp;<option selected="selected" value="a=setup">General Settings</option>&nbsp;<option value="a=users;l=setup">Users</option>&nbsp;<option value="a=dir;l=setup">Site Catalog</option>&nbsp;<option value="a=blog;l=setup">Blog</option></select>
+
+			<form id="setup" name="setup" onsubmit="return uCoz.utils.simpleSave(this)">
+			<table border="0" cellpadding="1" cellspacing="1" width="100%">
+				<tbody>
+					<tr>
+						<td width="55%">Name of your site:
+						<p>Used for the code $SITE_NAME$.</p>
+						</td>
+						<td valign="top"><input maxlength="55" name="site_name" size="30" type="text" value="trueIDMar 6  $GLOBAL_BFOOTER$" /></td>
+					</tr>
+					<tr>
+						<td>Your site address (URL):
+						<p>Used for the code $HOME_PAGE_LINK$.</p>
+						</td>
+						<td valign="top"><input maxlength="100" name="site_link" size="30" type="text" value="http://trueid.ucoz.site/" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Site design:
+						<p>After you have changed the setting, the system will automatically change the design in all modules.</p>
+						</td>
+						<td valign="top"><input name="dsgn" readonly="readonly" size="20" type="text" value="Design # 1081" />&nbsp;[&nbsp;<a href="javascript://" onclick="document.getElementById('rd2').style.display='none';window.open('/panel/?a=templates&amp;t='+document.setup.design.value,'','scrollbars=1,width=930,height=650,top=0,left=0');return false;">Select design</a>&nbsp;]&nbsp;[&nbsp;<a href="https://ucoztemplates.com/" target="_blank">Premium templates&nbsp;</a>]
+						<p><input id="chall" name="chall" type="checkbox" value="1" /><label for="chall">Update design for all active modules</label></p>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Site language:</td>
+						<td valign="top"><select name="langu">&nbsp;<option value="ar">Arabic</option>&nbsp;<option value="de">Deutsch</option>&nbsp;<option selected="selected" value="en">English</option>&nbsp;<option value="es">Español</option>&nbsp;<option value="fr">Français</option>&nbsp;<option value="he">Hebrew</option>&nbsp;<option value="hu">Magyar</option>&nbsp;<option value="hy">հայերեն</option>&nbsp;<option value="ka">ქართული</option>&nbsp;<option value="lv">Latviešu</option>&nbsp;<option value="pl">Polski</option>&nbsp;<option value="pt">Português</option>&nbsp;<option value="ro">Română</option>&nbsp;<option value="ru">Русский</option>&nbsp;<option value="sv">Svenska</option>&nbsp;<option value="uk">Українська</option></select></td>
+					</tr>
+					<tr>
+						<td>Language of the Control Panel:</td>
+						<td valign="top"><select name="langp">&nbsp;<option value="ar">Arabic</option>&nbsp;<option value="de">Deutsch</option>&nbsp;<option selected="selected" value="en">English</option>&nbsp;<option value="es">Español</option>&nbsp;<option value="fr">Français</option>&nbsp;<option value="hu">Magyar</option>&nbsp;<option value="pl">Polski</option>&nbsp;<option value="pt">Português</option>&nbsp;<option value="ro">Română</option>&nbsp;<option value="ru">Русский</option>&nbsp;<option value="uk">Українська</option></select></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>The website is temporarily closed:
+						<p>Only the users in the Administrators group will be able to view the website. This option can be useful when updating your website or changing the design.</p>
+						</td>
+						<td valign="top"><input name="siteoff" onclick="chFoff(1);" type="checkbox" value="1" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Cookie notice:
+						<p>Displays the Cookie notice on the website<br />
+						<a href="http://trueid.ucoz.site/panel/users/cookiepolicy">Cookie Policy</a>.</p>
+						</td>
+						<td valign="top"><input 0="" name="cookiepolicy" type="checkbox" value="1" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>The website participates in the&nbsp;<a href="http://top.ucoz.com/" target="_blank">TOP 100 Rating</a>:</td>
+						<td><input name="topflag" onclick="chFtop();" type="checkbox" value="1" />&nbsp;<a href="javascript:;" onclick="new _uWnd('HelpWd', ' ', -500, -150, {autosize:1, closeonesc:1, resize:0, align:'justify', maxh:400}, {url:'/panel/?a=help&amp;t=29'}); return false;">uCoz TOP Rules</a></td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Use &quot;<b>Builder</b>&quot; for the website design customization:
+						<p>A tab &quot;Builder&quot; will appear in the Admin Bar. By means of the Builder you will be able to customize site blocks in visual mode as you like. This feature is indispensable for people with insufficient HTML and CSS skills.</p>
+						</td>
+						<td valign="top"><input name="usedescus" type="checkbox" value="1" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Activate &quot;Who&#39;s online&quot; feature:
+						<p>Activate this option if you want $ONLINE_COUNTER$ and $ONLINE_USERS_LIST$ codes to work</p>
+						</td>
+						<td valign="top"><input checked="checked" name="isonline" onclick="if (this.checked) {document.getElementById('shownumonline').style.display=''} else {document.getElementById('shownumonline').style.display='none'}" type="checkbox" value="1" />&nbsp;<input maxsize="2" name="maxonlineusr" size="3" title="Max. number of users per page" type="text" value="5" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Activate&nbsp;<b>mobile</b>&nbsp;templates:
+						<p>You will be able to customize templates for the display of your website on mobile devices. Mini browsers are detected automatically. To view the mobile design in an ordinary browser, add &quot;/pda&quot; to the URL (http://site.com/pda).</p>
+						</td>
+						<td valign="top"><input name="usepda" type="checkbox" value="1" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Use tree-like comments structure:
+						<p>Users will be able to reply to comments of other users.</p>
+						</td>
+						<td valign="top"><input name="comtype" type="checkbox" value="1" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Don&#39;t use the system lightbox:
+						<p>Allows disabling the system lightbox</p>
+						</td>
+						<td valign="top"><input 0="" name="noulightbox" type="checkbox" value="1" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Disable AJAX for page switchers:
+						<p>If Ajax is enabled, then only the area with the list of entries will be refreshed when switching pages.</p>
+						</td>
+						<td valign="top"><input name="noajax" type="checkbox" value="1" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Use Search Engine Friendly URLs:
+						<p>When forming category and entry URLs, their names will be used.</p>
+						</td>
+						<td valign="top"><input name="use_hgu" type="checkbox" value="1" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Apply a watermark to uploaded images:
+						<p>Automatic adding of text/image to JPEG/PNG pictures with the dimensions over 100&times;100 pixels. The watermark is applied only if its size does not exceed the size of an uploaded image.</p>
+						</td>
+						<td valign="top"><input id="wmark" name="wmark" type="checkbox" value="1" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Contact details:
+						<p>Used for sending system notifications about activity on your website (if the necessary settings have been enabled).</p>
+						</td>
+						<td valign="top"><b>ReZa Sardeha</b>&nbsp;|&nbsp;<b>dddndd21@gmail.com</b>&nbsp;&nbsp;&nbsp;[&nbsp;<a href="http://trueid.ucoz.site/panel/?a=chemail">Change</a>&nbsp;]</td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td><a href="javascript://" onclick="window.open('/panel/?a=smiles&amp;l=gr','smiles_gr','scrollbars=1,resizable=1,width=350,height=420,left=0,top=0');return false;">Emoticons set</a>&nbsp;<a href="javascript://" onclick="new _uWnd('HelpWd',' ',-350,-150,{autosize:1,closeonesc:1,resize:1,align:'justify',maxh:400},{url:'/panel/?a=help&amp;t=8'});return false;">?</a>:
+						<p>This set of emoticons will be applied for all modules and features that use smileys.</p>
+						</td>
+						<td><select name="site_smiles_gr" onchange="show_smile()">&nbsp;<option value="0">Custom set of emoticons</option><option selected="selected" value="1">Standard emoticons</option><option value="2">Standard emoticons 2</option><option value="3">Simple emoticons</option><option value="4">White emoticons</option><option value="5">Gray emoticons</option><option value="6">Orange emoticons</option><option value="7">Cat-like emoticons</option><option value="8">Wolf-like emoticons</option><option value="9">Frog-like emoticons</option><option value="10">Square emoticons</option><option value="11">Silver emoticons</option><option value="12">Gray emoticons 2</option><option value="13">Yellow emoticons</option><option value="14">White-blue emoticons</option><option value="15">Orange emoticons 2</option><option value="16">Orange emoticons 3</option><option value="17">New Year emoticons</option><option value="18">Smellie</option><option value="19">Anime emoticons</option><option value="20">Brown emoticons</option><option value="21">Square emoticons 2</option><option value="22">Blue emoticons</option><option value="23">Standard (dark background)</option><option value="24">3D emoticons (white background)</option><option value="25">Green emoticons</option></select>&nbsp;<img align="absmiddle" border="0" name="smilegr" src="http://trueid.ucoz.site/.s/sm/1/smile.gif" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Local time:
+						<p>Select your time zone.</p>
+						</td>
+						<td valign="top"><select name="user_timeoffset">&nbsp;<option value="-15">2021-03-11, 11:52 [GMT-12:00]</option><option value="-14">2021-03-11, 12:52 [GMT-11:00]</option><option value="-13">2021-03-11, 13:52 [GMT-10:00]</option><option value="-12">2021-03-11, 14:52 [GMT-9:00]</option><option value="-11">2021-03-11, 15:52 [GMT-8:00]</option><option value="-10">2021-03-11, 16:52 [GMT-7:00]</option><option value="-9">2021-03-11, 17:52 [GMT-6:00]</option><option value="-8">2021-03-11, 18:52 [GMT-5:00]</option><option value="-7">2021-03-11, 19:52 [GMT-4:00]</option><option value="-6.5">2021-03-11, 20:22 [GMT-3:30]</option><option value="-6">2021-03-11, 20:52 [GMT-3:00]</option><option value="-5">2021-03-11, 21:52 [GMT-2:00]</option><option value="-4">2021-03-11, 22:52 [GMT-1:00]</option><option value="-3">2021-03-11, 23:52 [GMT+0:00]</option><option value="-2">2021-03-12, 00:52 [GMT+1:00]</option><option value="-1">2021-03-12, 01:52 [GMT+2:00]</option><option selected="selected" value="0">2021-03-12, 02:52 [GMT+3:00]</option><option value="0.5">2021-03-12, 03:22 [GMT+3:30]</option><option value="1">2021-03-12, 03:52 [GMT+4:00]</option><option value="1.5">2021-03-12, 04:22 [GMT+4:30]</option><option value="2">2021-03-12, 04:52 [GMT+5:00]</option><option value="2.5">2021-03-12, 05:22 [GMT+5:30]</option><option value="2.75">2021-03-12, 05:37 [GMT+5:45]</option><option value="3">2021-03-12, 05:52 [GMT+6:00]</option><option value="3.5">2021-03-12, 06:22 [GMT+6:30]</option><option value="4">2021-03-12, 06:52 [GMT+7:00]</option><option value="5">2021-03-12, 07:52 [GMT+8:00]</option><option value="6">2021-03-12, 08:52 [GMT+9:00]</option><option value="6.5">2021-03-12, 09:22 [GMT+9:30]</option><option value="7">2021-03-12, 09:52 [GMT+10:00]</option><option value="8">2021-03-12, 10:52 [GMT+11:00]</option><option value="9">2021-03-12, 11:52 [GMT+12:00]</option><option value="10">2021-03-12, 12:52 [GMT+13:00]</option></select></td>
+					</tr>
+					<tr>
+						<td>Date and time format:
+						<p>Date and time format on your website.</p>
+						</td>
+						<td><select name="d_format">&nbsp;<option selected="selected" value="$yyyy$-$mo$-$dd$">2005-02-25</option>&nbsp;<option value="$yyyy$/$mo$/$dd$">2005/02/25</option>&nbsp;<option value="$yyyy$.$mo$.$dd$">2005.02.25</option>&nbsp;<option value="$dd$-$mo$-$yyyy$">25-02-2005</option>&nbsp;<option value="$dd$/$mo$/$yyyy$">25/02/2005</option>&nbsp;<option value="$dd$.$mo$.$yyyy$">25.02.2005</option>&nbsp;<option value="$yy$-$mo$-$dd$">05-02-25</option>&nbsp;<option value="$yy$/$mo$/$dd$">05/02/25</option>&nbsp;<option value="$yy$.$mo$.$dd$">05.02.25</option>&nbsp;<option value="$dd$-$mo$-$yy$">25-02-05</option>&nbsp;<option value="$dd$/$mo$/$yy$">25/02/05</option>&nbsp;<option value="$dd$.$mo$.$yy$">25.02.05</option>&nbsp;<option value="$yyyy$-$Mo$-$dd$">2005-Feb-25</option>&nbsp;<option value="$yyyy$/$Mo$/$dd$">2005/Feb/25</option>&nbsp;<option value="$yyyy$.$Mo$.$dd$">2005.Feb.25</option>&nbsp;<option value="$yyyy$ $Mo$ $dd$">2005 Feb 25</option>&nbsp;<option value="$dd$-$Mo$-$yyyy$">25-Feb-2005</option>&nbsp;<option value="$dd$/$Mo$/$yyyy$">25/Feb/2005</option>&nbsp;<option value="$dd$.$Mo$.$yyyy$">25.Feb.2005</option>&nbsp;<option value="$dd$ $Mo$ $yyyy$">25 Feb 2005</option>&nbsp;<option value="$yy$-$Mo$-$dd$">05-Feb-25</option>&nbsp;<option value="$yy$/$Mo$/$dd$">05/Feb/25</option>&nbsp;<option value="$yy$.$Mo$.$dd$">05.Feb.25</option>&nbsp;<option value="$yy$ $Mo$ $dd$">05 Feb 25</option>&nbsp;<option value="$dd$-$Mo$-$yy$">25-Feb-05</option>&nbsp;<option value="$dd$/$Mo$/$yy$">25/Feb/05</option>&nbsp;<option value="$dd$.$Mo$.$yy$">25.Feb.05</option>&nbsp;<option value="$dd$ $Mo$ $yy$">25 Feb 05</option>&nbsp;<option value="$yyyy$-$MO$-$dd$">2005-February-25</option>&nbsp;<option value="$yyyy$/$MO$/$dd$">2005/February/25</option>&nbsp;<option value="$yyyy$.$MO$.$dd$">2005.February.25</option>&nbsp;<option value="$yyyy$ $MO$ $dd$">2005 February 25</option>&nbsp;<option value="$dd$-$MOD$-$yyyy$">25-February-2005</option>&nbsp;<option value="$dd$/$MOD$/$yyyy$">25/February/2005</option>&nbsp;<option value="$dd$.$MOD$.$yyyy$">25.February.2005</option>&nbsp;<option value="$dd$ $MOD$ $yyyy$">25 February 2005</option>&nbsp;<option value="$yy$-$MO$-$dd$">05-February-25</option>&nbsp;<option value="$yy$/$MO$/$dd$">05/February/25</option>&nbsp;<option value="$yy$.$MO$.$dd$">05.February.25</option>&nbsp;<option value="$yy$ $MO$ $dd$">05 February 25</option>&nbsp;<option value="$dd$-$MOD$-$yy$">25-February-05</option>&nbsp;<option value="$dd$/$MOD$/$yy$">25/February/05</option>&nbsp;<option value="$dd$.$MOD$.$yy$">25.February.05</option>&nbsp;<option value="$dd$ $MOD$ $yy$">25 February 05</option></select>&nbsp;<select name="t_format">&nbsp;<option selected="selected" value="$hh$:$mm$ $AP$">11:23 Pm</option>&nbsp;<option value="$hh$:$mm$:$ss$ $AP$">11:23:53 Pm</option>&nbsp;<option value="$hh$.$mm$ $AP$">11.23 Pm</option>&nbsp;<option value="$hh$.$mm$.$ss$ $AP$">11.23.53 Pm</option>&nbsp;<option value="$hh$:$mm$:$ss$">11:23:53</option>&nbsp;<option value="$hh$.$mm$.$ss$">11.23.53</option>&nbsp;<option value="$HH$:$mm$:$ss$">23:23:53</option>&nbsp;<option value="$HH$.$mm$.$ss$">23.23.53</option>&nbsp;<option value="$HH$:$mm$">23:23</option>&nbsp;<option value="$HH$.$mm$">23.23</option></select>&nbsp;<select name="w_format">&nbsp;<option selected="selected" value="$WD$">Friday</option>&nbsp;<option value="$wd$">Fr</option></select></td>
+					</tr>
+					<tr>
+						<td>Display current date as &quot;Today&quot;:
+						<p>If an entry has been added today, the word &quot;Today&quot; will be displayed instead of the date.</p>
+						</td>
+						<td><input checked="checked" name="showtoday" type="checkbox" value="1" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Type of security code (captcha):
+						<p><b>Standard</b>&nbsp;- reliable, cannot be discerned automatically, simple enough for the human eye.<br />
+						<b>Complicated</b>&nbsp;- reliable, cannot be discerned automatically, complicated for the human eye.<br />
+						<b>Simple</b>&nbsp;- reliable enough, can be discerned automatically, simple for the human eye.<br />
+						<b>Arithmetic</b>&nbsp;- simple enough for the human eye, depends on the language of the website. A user needs to solve a simple math problem, which complicates automatic recognition of the security code.<br />
+						<br />
+						<b>reCAPTCHA</b>&nbsp;- an innovative anti-spam system (a recommended option).<br />
+						<br />
+						If you notice spam on your website when using a simple security code, enable the reCAPTCHA option.</p>
+						</td>
+						<td><select name="captcha">&nbsp;<option value="0">Standard</option>&nbsp;<option value="1">Simple</option>&nbsp;<option value="2">Complicated</option>&nbsp;<option value="4">Arithmetic</option>&nbsp;<option selected="selected" value="6">reCAPTCHA v2</option></select>
+						<p>Color scheme:<select name="recaptcha_theme"><option selected="selected" value="0">Light</option><option value="1">Dark</option></select><input name="recaptcha_sitekey" placeholder="Key" type="text" value="" /><input name="recaptcha_secretkey" placeholder="Secret key" type="text" value="" />By default, the system keys are used. If desired, you can install your own keys, having previously obtained them.&nbsp;<a href="https://www.google.com/recaptcha/admin" target="_blank">Get API keys</a></p>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Version of&nbsp;<b>jQuery</b>&nbsp;library :</td>
+						<td><select id="jquery-select" name="jquery">&nbsp;<option selected="selected" value="3">jquery-1.12.4.min.js</option>&nbsp;<option value="5">jquery-3.3.1.min.js</option></select></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Allow API usage:
+						<p>Basic API (GET-only) for the website</p>
+						</td>
+						<td><input id="useapi" name="useapi" onclick="showhideapikey(this)" type="checkbox" value="1" /></td>
+					</tr>
+					<tr>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>When opening the home page, redirect to:
+						<p>Having entered the address, a visitor will be automatically redirected to the selected page.</p>
+						</td>
+						<td valign="top"><select name="redir"><option value="0">Home page</option><option value="blog">Blog</option><option value="dir">Site Catalog</option></select></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Default form type for entry editing:
+						<p>Select the type of entry text editing to be used by default.</p>
+						</td>
+						<td valign="top"><select id="etype" name="etype" onchange="uCoz.settings.editor.checkEditorType(this)"><option selected="selected" value="1">Visual HTML editor</option><option value="2">BB codes + HTML</option><option value="3">Pure HTML</option></select></td>
+					</tr>
+				</tbody>
+				<tbody id="eTypeOptions">
+					<tr>
+						<td>Visual HTML editor:
+						<p>It is recommended to use the new editor.</p>
+						</td>
+						<td valign="top"><select name="etype_ver" onchange="uCoz.settings.editor.checkEditorGeneration(this)"><option selected="selected" value="0">New (recommended)</option><option value="255">Outdated (unsupported)</option></select>
+						<p><label><input name="etype_br" type="checkbox" value="1" />&nbsp;Use the &lt;br&gt; tag instead of &lt;p&gt; for line breaks</label>&nbsp;&nbsp;&nbsp;<a href="javascript://" onclick="new _uWnd('HelpWd','Help',-600,-150,{max:1,min:1,autosize:1,maxh:400,closeonesc:1,resize:1,align:'left'},$('#etype-use-br-help').html());return false;">?</a></p>
+						</td>
+					</tr>
+					<tr id="ckThemeSetup">
+						<td>Editor color scheme:</td>
+						<td><select name="etype_theme" onchange="uCoz.settings.editor.checkEditorTheme(this)"><option selected="selected" value="0">moonocolor</option><option value="1">moono</option><option value="2">moono-dark</option></select>&nbsp;</td>
+					</tr>
+				</tbody>
+				<tbody>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr id="uwbb-tr">
+						<td>Do not use the visual comment editor:
+						<p>Comment form for all modules: Forum, Blog etc.</p>
+						</td>
+						<td><input id="uwbb-checkbox" name="uwbb" type="checkbox" />&nbsp;&nbsp;&nbsp;&nbsp;[&nbsp;<a href="javascript://">Editor settings</a>&nbsp;]</td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr id="jfs813">
+						<td>Shorten external links with the help of the&nbsp;<a href="http://u.to/" target="_blank"><b>u.to</b></a>&nbsp;service.:
+						<p>All external links in entries and comments added by visitors will be processed by the&nbsp;<b>u.to</b>&nbsp;service. It is very useful for search engine optimization and reduces the possibility of spamming.</p>
+						</td>
+						<td valign="top"><input id="useuto" name="use_uto" onclick="if (this.checked) { $('#jfs823, #jfs824').hide(); } else { $('#jfs823, #jfs824').show(); }" type="checkbox" value="1" /></td>
+					</tr>
+					<tr id="jfs814">
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr id="jfs823">
+						<td>Proxy all external links in added entries:
+						<p>Transform all external links to the form http://trueid.ucoz.site/go?http://www.anysite.com/. This will have a positive impact on search engine optimization. Click statistics are&nbsp;<b>NOT</b>&nbsp;counted in this case.</p>
+						</td>
+						<td valign="top"><input id="usegoto" name="use_goto" onclick="if (this.checked) { $('#jfs813, #jfs814').hide(); } else { $('#jfs813, #jfs814').show(); }" type="checkbox" value="1" /></td>
+					</tr>
+					<tr id="jfs824">
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>&lt;!DOCTYPE&gt; tag value:
+						<p>This tag will be added to the very beginning of the document. Use this setting only if you understand its meaning.</p>
+						</td>
+						<td valign="top"><input dir="ltr" name="doctype" type="text" value="" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Version for visually impaired:
+						<p>Enabling of this option allows visitors to adjust the size of text when viewing pages on your website..</p>
+						</td>
+						<td valign="top"><input id="visually_impaired" name="visually_impaired" type="checkbox" value="1" /></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Select a style for the entry management buttons:</td>
+						<td><select id="moder-design-type" name="moder_design_type"><option selected="selected" value="0">Light black-and-white (default)</option><option value="1">Dark black-and-white</option><option value="2">Light colored</option><option value="3">Dark colored</option></select><label><input checked="checked" name="moder_btns_type" type="radio" value="0" />&nbsp;Large icons (default)</label><label><input name="moder_btns_type" type="radio" value="1" />&nbsp;Smaller icons</label></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td>Control Panel version
+						<p>The selected version will be used by default when you log in to the Control Panel.</p>
+						</td>
+						<td><select id="" name="panel_v2_by_default">&nbsp;<option value="0">Old</option>&nbsp;<option selected="selected" value="1">New</option></select></td>
+					</tr>
+					<tr>
+						<td colspan="2" height="10">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td align="right" id="eMessage">&nbsp;</td>
+						<td id="setup-submit-td"><button id="subbutfrm942" onclick="this.disabled = this.form.checkValidity(); this.form.requestSubmit(); return false;" type="submit">Save</button></td>
+					</tr>
+				</tbody>
+			</table>
+			</form>
+			</td>
+		</tr>
+	</tbody>
+</table>
